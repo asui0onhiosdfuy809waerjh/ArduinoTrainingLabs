@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.19.0" title="Shotcut version 19.12.16" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:06:25.000">
+    <property name="length">00:06:25.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Screen Casts/12.11.19 recording (2).mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:35:52</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">db3264fc5a08bc1432a96c0ed6234795</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">12.11.19 recording (2).mp4</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.480">
+    <property name="length">163</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5218.MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7c8043e800acb19877bdd4eb7c49b0f0</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.600">
+    <property name="length">216</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5219.MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:42</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0f1b1e4d10a8a193c848fd259e34ec3c</property>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:00:16.680">
+    <property name="length">418</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5220 (1).MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:52</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5d835494ae7eebf33090786c896a25c4</property>
+  </producer>
+  <playlist id="main_bin" title="Shotcut version 19.12.16">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:06:25.000"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:06.480"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:08.600"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:16.680"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:06:25.000">
+    <property name="length">00:06:25.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:06:25.000"/>
+  </playlist>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:06:25.000">
+    <property name="length">00:06:25.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Screen Casts/12.11.19 recording (2).mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:35:52</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">db3264fc5a08bc1432a96c0ed6234795</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">12.11.19 recording (2).mp4</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer4" in="00:00:00.000" out="00:06:25.000"/>
+  </playlist>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:00:16.680">
+    <property name="length">418</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5220 (1).MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:52</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5d835494ae7eebf33090786c896a25c4</property>
+    <property name="shotcut:caption">IMG_5220 (1).MOV</property>
+    <filter id="filter0" out="00:00:16.680">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.6</property>
+      <property name="transition.scale_y">0.6</property>
+      <property name="transition.ox">-531</property>
+      <property name="transition.oy">159</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter1" out="00:00:16.680">
+      <property name="lift_r">0</property>
+      <property name="lift_g">0</property>
+      <property name="lift_b">0</property>
+      <property name="gamma_r">1</property>
+      <property name="gamma_g">1</property>
+      <property name="gamma_b">1</property>
+      <property name="gain_r">1</property>
+      <property name="gain_g">1</property>
+      <property name="gain_b">1</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:45.040"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:16.680"/>
+  </playlist>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.600">
+    <property name="length">216</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5219.MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:42</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0f1b1e4d10a8a193c848fd259e34ec3c</property>
+    <property name="shotcut:caption">IMG_5219.MOV</property>
+    <filter id="filter2" out="00:00:08.600">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.6</property>
+      <property name="transition.scale_y">0.6</property>
+      <property name="transition.ox">-400</property>
+      <property name="transition.oy">60</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:00:08.600">
+    <property name="length">216</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5219.MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:42</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0f1b1e4d10a8a193c848fd259e34ec3c</property>
+    <property name="shotcut:caption">IMG_5219.MOV</property>
+    <filter id="filter3" out="00:00:08.600">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.6</property>
+      <property name="transition.scale_y">0.6</property>
+      <property name="transition.ox">-400</property>
+      <property name="transition.oy">60</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:01:35.640"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:08.600"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:08.600"/>
+  </playlist>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.480">
+    <property name="length">163</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5218.MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7c8043e800acb19877bdd4eb7c49b0f0</property>
+    <property name="shotcut:caption">IMG_5218.MOV</property>
+    <filter id="filter4" out="00:00:05.880">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.6</property>
+      <property name="transition.scale_y">0.6</property>
+      <property name="transition.ox">-400</property>
+      <property name="transition.oy">60</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:00:06.480">
+    <property name="length">163</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tbrunner/Desktop/Tyler Brunner/Arduino/Arduino - Training Labs/VideoProject_ATL/Video/Arduino Video/IMG_5218.MOV</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-12-17T18:21:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7c8043e800acb19877bdd4eb7c49b0f0</property>
+    <property name="shotcut:caption">IMG_5218.MOV</property>
+    <filter id="filter5" out="00:00:06.480">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineRotate</property>
+      <property name="transition.invert_scale">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="transition.scale_x">0.6</property>
+      <property name="transition.scale_y">0.6</property>
+      <property name="transition.ox">-400</property>
+      <property name="transition.oy">60</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.720">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer8" in="00:00:03.160" out="00:00:05.880"/>
+    <track producer="producer9" in="00:00:00.000" out="00:00:02.720"/>
+    <transition id="transition0" out="00:00:02.720">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:02.720">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist3">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V4</property>
+    <blank length="00:02:51.600"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:03.120"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:02.720"/>
+    <entry producer="producer9" in="00:00:02.760" out="00:00:06.480"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 19.12.16" global_feed="1" in="00:00:00.000" out="00:06:25.000">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2"/>
+    <track producer="playlist3"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
